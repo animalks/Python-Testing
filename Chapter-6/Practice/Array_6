@@ -1,0 +1,23 @@
+#!/bin/python3
+import random
+ABC = []
+for i in range (4):
+    RRR = random.randint(1, 10)
+    ABC.append(RRR)
+print (ABC)
+ABC.sort()
+#print (ABC)
+
+print ("*******************************************************************")
+print ("Show me the 3 lagerest number, Please press enter to see the result")
+print ("*******************************************************************")
+B = str(input())
+
+j = 0
+for n in  ABC:
+    print (ABC[j])
+    j = j + 1
+    if j == 1:
+        break
+
+print()

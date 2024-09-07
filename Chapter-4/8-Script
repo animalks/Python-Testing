@@ -1,0 +1,18 @@
+#! /usr/bin/python3
+import random
+B = random.randint(1, 10)
+print (B)
+Y = int(input(" Please input a number: "))
+A = Y
+#print (A)
+
+while True:
+    if A < B:
+        C = int(input("Your guess is too low "))
+        A = C
+    elif A > B:
+        C = int(input("Your guess is too high "))
+        A = C
+    else:
+       break
+print ("You are correct this time!")

@@ -1,0 +1,11 @@
+#!/bin/python3
+def computer(d, e, f):
+    for i in range (d):
+        print (e + f)
+
+a = int(input("Type the first number "))
+b = int(input("Type the second number "))
+c = int(input("Type the third number "))
+(computer(a, b, c))
+
+

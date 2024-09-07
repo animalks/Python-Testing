@@ -1,0 +1,8 @@
+#!/bin/python3
+def computer():
+    a = int(input("Type the first number "))
+    b = int(input("Type the second number "))
+    print  (a + b)
+
+computer()
+

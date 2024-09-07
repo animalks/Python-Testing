@@ -1,0 +1,15 @@
+#!/bin/python3
+import random
+Luck = []
+for i in range (1,7):
+    random123 = random.randint(1, 100)
+    Luck.append(random123)
+
+print (Luck)
+
+Luck.sort()
+for j in range (0,6):
+    print ("The " + str(j + 1) +  " number is", end = " ")
+    print (Luck[j])
+print ()
+

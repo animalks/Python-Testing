@@ -1,0 +1,16 @@
+#!/bin/python3
+Luck = []
+for i in range(3):
+    Luck.append(eval(input("Please input a number: ")))
+print (Luck)
+Luck.sort()
+print (Luck)
+
+K = 0
+for j in range(3):
+    print (Luck[(j)], end = " ")
+    K = K + Luck[(j)]
+print ()
+print ("The sum of number is " + str(K))
+print ()
+

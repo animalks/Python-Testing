@@ -1,0 +1,15 @@
+#!/bin/python3
+ABC = []
+for i in range (5):
+    ABC.append(eval(input("Please input a number: ")))
+print (ABC)
+ABC.sort()
+print (ABC)
+
+j = 0
+for n in  ABC:
+    print (ABC[j])
+    j = j + 1
+    if j == 3:
+        break
+

@@ -1,0 +1,29 @@
+#!/bin/python3
+import random
+Luck = []
+for i in range (0, 2):
+    Luck.append(eval(input("Please input a number: ")))
+
+print (Luck)
+
+for i in range (3, 5):
+    Luck.append(random.randint(0, 9))
+
+print (Luck)
+
+
+print ("The sum of manual number is ", (int(Luck[0]) + int(Luck[1])))
+print ("The sum of random number is ", (int(Luck[2]) + int(Luck[3])))
+
+print ("************************************************************")
+print ("Please press enter to see the result")
+print ("************************************************************")
+B = str(input())
+
+if (int(Luck[0]) + int(Luck[1])) > (int(Luck[2]) + int(Luck[3])):
+    print ("The Manual input number is lager than Random number")
+elif (int(Luck[0]) + int(Luck[1])) < (int(Luck[2]) + int(Luck[3])):
+    print ("The Manual input number is smaller than Random number")
+else:
+    print ("The Manual number is equal to Random number")
+

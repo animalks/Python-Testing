@@ -1,0 +1,11 @@
+#!/bin/python3
+def Computer(a, b, c):
+    print("Name is "  + str(a))
+    print ("ID is " + str(b))
+    print ("Department is " + str(c))
+
+name = input("Name: ")
+iid = (input("ID: "))
+department = input("Department: ")
+Computer (name, iid, department)
+

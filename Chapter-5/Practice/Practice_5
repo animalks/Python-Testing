@@ -1,0 +1,18 @@
+#!/bin/python3
+def Main ():
+    x = int(input("Please state the first number: "))
+    y = int(input("please state the second number: "))
+    z = int(input("Please state the third number: "))
+
+    w = (x*y*z)
+    #print (w)
+    if w < 100:
+        print ('Too small')
+
+    elif 100 < w < 200:
+        print ("Too middle")
+
+    else:
+        print ("Too big")
+Main ()
+

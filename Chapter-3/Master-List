@@ -1,0 +1,10 @@
+1-Script.py - Use while loop to calculate the sum of 1 to 99
+2-Script.py - Use while loop to ping from 192.168.1.1 - 192.168.1.10
+3-Script.py - Use while loop with input of subnet mask and then ping corrsponding network from .1 - .10
+4-Script.py - From a list of ip addresses, and then use for loop to test if 443 port of these IP addresses are up
+5-Script.py - From a list of ip addresses, ping each IP address and show result with different colour
+6-Script.py - Input list of ip addresses, ping each IP address and show result with different colour
+7-Script.py - From a list of ip addresses, ping each IP address and show result with different colour, and record the failed IP address in a output file
+8-Script.py - Double for loop to print hierarchical output of x and y
+9-Script.py - Double for loop to print hierarchical output of x and y
+10-Script.py - Use while loop to calculate output of 1x2x3x4x5
